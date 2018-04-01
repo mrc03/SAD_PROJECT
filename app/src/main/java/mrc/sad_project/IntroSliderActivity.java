@@ -44,6 +44,7 @@ public class IntroSliderActivity extends AppCompatActivity {
             finish();
         }
 
+        
 
         // DOTS
         addDotsIndicator(0);
