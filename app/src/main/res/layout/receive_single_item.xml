@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="@drawable/shadow_rect">
+
+    <TextView
+        android:id="@+id/receive_single_bloodgp"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/bgp_background"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/receive_single_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_toRightOf="@+id/receive_single_bloodgp"
+        android:gravity="center"
+        android:minWidth="100dp"
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/receive_single_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/receive_single_name"
+        android:layout_gravity="center"
+        android:layout_marginRight="4dp"
+        android:layout_toRightOf="@+id/receive_single_bloodgp"
+        android:gravity="center"
+        android:minWidth="100dp"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:textStyle="normal"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/receive_single_call"
+        android:layout_width="64dp"
+        android:layout_height="62dp"
+        android:layout_toRightOf="@+id/receive_single_name"
+        android:background="#fff"
+        android:src="@drawable/call"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/receive_single_gmap"
+        android:layout_width="64dp"
+        android:layout_height="62dp"
+        android:layout_toRightOf="@+id/receive_single_call"
+        android:background="#fff"
+        android:src="@drawable/call"/>
+
+
+</RelativeLayout>

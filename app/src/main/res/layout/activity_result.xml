@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mrc.sad_project.ResultActivity">
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:hint="@string/result"
+        android:padding="16dp"
+        android:background="@drawable/bgp_background"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="20sp"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:id="@+id/editText"
+        android:text="Name"
+        android:textColor="#000"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/result_recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"/>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SAD_PROJECT</string>
+    <string name="action_settings">Settings</string>
+    <string name="create_an_account">Create An Account</string>
+    <string name="login">Login</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="phone">Phone No.</string>
+    <string name="bloodgroup">Blood Group</string>
+    <string name="location">Address</string>
+    <string name="submit">Submit</string>
+    <string name="name_donor">Name of Donor</string>
+    <string name="phone_donor">Phone Number of Donor</string>
+    <string name="address_donor">Address of Donor</string>
+    <string name="name_seeker">Name</string>
+    <string name="result">Result</string>
+    <string name="current_loc">Use my current location</string>
+    <string name="type">--Check the Box--</string>
+
+    <string-array name="blood_groups">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>
