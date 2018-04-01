@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:id="@+id/slide_layout">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/slide_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/main_icon1" />
+
+    <TextView
+        android:id="@+id/slide_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slide_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="WELCOME"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slide_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:layout_below="@+id/slide_heading"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:text="MBlood Donor App puts the power to save lives in the palm of your hand. Now, donating blood and platelets is easier than ever."
+        android:textSize="16sp"
+        android:textColor="@color/colorTransparentWhite"/>
+
+</RelativeLayout>
